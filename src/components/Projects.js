@@ -11,7 +11,7 @@ const Projects = () => {
     "Website 2.0",
     "Website 1.0",
   ];
-  const [myExp, setmyExp] = useState("Chainalysis");
+  const [myExp, setmyExp] = useState("Sustanify");
   return (
     <body>
       <title>
@@ -50,8 +50,25 @@ const Projects = () => {
               >
                 Electronic Compliment Giving Clock
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h4 style={{ marginTop: "0%" }}>2020 • Digital Electronics, C</h4>
+              <h3>
+                This project was my first dip into electronics, and as such I
+                found many things needed to be learned. I had to learn some of
+                the basics of circuits, how digital electronics work, and how to
+                calculate which resistors were required for it to work. Not all
+                parts were using digital logic though, some were using analogue,
+                and figuring out how analogue parts work, was another beast in
+                of itself. My goal was to make a box, that gave out compliments
+                occasionally, while giving the time at the current moment: My
+                thinking was that when waiting all day for the time to pass, a
+                nice compliment would make one smile.
+              </h3>
+              <a
+                href="https://www.youtube.com/watch?v=zRxGmwva2Es"
+                class="btnDown"
+              >
+                Demo
+              </a>
             </div>
           )}
         </div>
@@ -67,8 +84,23 @@ const Projects = () => {
               >
                 Reducing Carbon Footprint of Electricity
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
+              <h4 style={{ marginTop: "0%" }}>
+                2021 • JavaScript, MongoDB, Node.js
+              </h4>
               <h3>[DESCRIPTION MISSING]</h3>
+              <a
+                href="https://github.com/Hans-EH/sustaininator"
+                class="btnDown"
+              >
+                Github
+              </a>
+              •
+              <a href="https://youtu.be/XguRPLWmR10" class="btnDown">
+                Demo
+              </a>
+              <a href="http://Sustaininator.eu" class="btnDown">
+                Website
+              </a>
             </div>
           )}
         </div>
@@ -84,7 +116,7 @@ const Projects = () => {
               >
                 Mobile Math App
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
+              <h4 style={{ marginTop: "0%" }}>2019 • C#, Game Dev., Unity</h4>
               <h3>
                 For my A level project, I decided to make a mobile app, that
                 could motivate and help kids learn different types of basic
@@ -100,8 +132,16 @@ const Projects = () => {
                 around 1000 lines of code and was done using the unity game
                 engine.
               </h3>
-              <a href="mailto:Hansheje@hotmail.com" class="btnDown">Github</a>•
-              <a href="mailto:Hansheje@hotmail.com" class="btnDown">Video</a>
+              <a href="https://github.com/Hans-EH/mobilegame" class="btnDown">
+                Github
+              </a>
+              •
+              <a
+                href="https://www.youtube.com/watch?v=qJ_S0RqMAWI"
+                class="btnDown"
+              >
+                Demo
+              </a>
             </div>
           )}
         </div>
@@ -117,8 +157,38 @@ const Projects = () => {
               >
                 CV Generator
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h4 style={{ marginTop: "0%" }}>
+                2020 • C, Unit Testing, Leadership
+              </h4>
+              <h3>
+                For my first semester project we decided in a group of 7 people
+                to create an automatic CV generator, which could generate an
+                appropriate CV depending on the job opening. The project was
+                done in C, and therefore required a lot of manually created
+                pointers and dynamic expanding arrays. One of the big hurdles,
+                was that throughout our 2 months process, 4 out of 7 decided to
+                drop out. This made it hard to keep our project organized.
+                People were losing motivation, and I stepped in after the first
+                person dropped out, to become the project lead. Using scrum
+                meetings and other organization devices I made sure everyone was
+                active, orientated, and understood why they did what they were
+                doing. We used multiple different algorithms, all implemented
+                from scratch, including an algorithm to determine levenshtein
+                distance.{" "}
+              </h3>
+              <a
+                href="https://github.com/Hans-EH/Semester-1-cv-filter"
+                class="btnDown"
+              >
+                Github
+              </a>
+              •
+              <a
+                href="https://www.youtube.com/watch?v=8PGPephRR24"
+                class="btnDown"
+              >
+                Demo
+              </a>
             </div>
           )}
         </div>
@@ -134,8 +204,19 @@ const Projects = () => {
               >
                 Website 2.0
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h4 style={{ marginTop: "0%" }}>2021 • React</h4>
+              <h3>
+                I thought it was high time to revamp my website layout and
+                design, and in the meantime learning React: Something I have
+                been considering for a long time now.
+              </h3>
+              <a href="https://github.com/Hans-EH/Website-2" class="btnDown">
+                Github
+              </a>
+              •
+              <a href="https://hansheje.com/" class="btnDown">
+                Website
+              </a>
             </div>
           )}
         </div>
@@ -151,8 +232,25 @@ const Projects = () => {
               >
                 Website 1.0
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h4 style={{ marginTop: "0%" }}>2021 • JavaScript, HTML, CSS</h4>
+              <h3>
+                To learn the basics of front-end web development, I decided to
+                create a website that needed to serve as an online portfolio
+                including basic information about me. For this project, my goal
+                was to make it as simple as possible. No fancy animations, just
+                a static layout with the most important things an employer might
+                need to see, to consider me as a candidate.
+              </h3>
+              <a href="https://github.com/Hans-EH/Website" class="btnDown">
+                Github
+              </a>
+              •
+              <a
+                href="https://mywebsiteportfolio-1.netlify.app/"
+                class="btnDown"
+              >
+                Website
+              </a>
             </div>
           )}
         </div>
