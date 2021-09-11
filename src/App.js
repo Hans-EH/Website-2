@@ -14,27 +14,27 @@ function App() {
   return (
     <div className="container" style={styling}>
       <Header/>
-      <Greeting/>
+      <div style={{marginBottom: "10rem"}}><Greeting /></div>
 
-      <ScrollAnimation animateIn="fadeBlockIn"   duration="2" animateOnce="true">
-      <div id="about" style={{marginTop: '10em'}}><About/></div>
+      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true" offset="300">
+      <div id="about" ><About/></div>
       </ScrollAnimation>
       
-      <ScrollAnimation animateIn="fadeBlockIn"   duration="2" animateOnce="true">
+      <ScrollAnimation animateIn="fadeBlockIn" style={margin}  duration="2" animateOnce="true"offset="300">
       <div id="experience"><Experience/></div>
       </ScrollAnimation>
 
       {/*<div id="certifications"><Certifications/></div>*/}
 
-      <ScrollAnimation animateIn="fadeBlockIn"   duration="2" animateOnce="true">
+      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
       <div id="education"><Education/></div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeBlockIn"   duration="2" animateOnce="true">
+      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
       <div id="projects"><Projects/></div>
       </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeBlockIn"   duration="2" animateOnce="true">
+      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
       <div id="contact"><Contact/></div>
       </ScrollAnimation>
       
@@ -48,6 +48,10 @@ function App() {
 const styling = {
   position: 'relative',
   maxWidth: '50em',
+}
+
+const margin = {
+  marginBottom: '10rem',
 }
 
 export default App;
