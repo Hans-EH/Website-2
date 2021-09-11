@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Greeting from './components/Greeting';
-//import Certifications from './components/Certifications';
+import Certifications from './components/Certifications';
 import Education from './components/Education';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -24,7 +24,9 @@ function App() {
       <div id="experience"><Experience/></div>
       </ScrollAnimation>
 
-      {/*<div id="certifications"><Certifications/></div>*/}
+      <ScrollAnimation animateIn="fadeBlockIn" style={margin}  duration="2" animateOnce="true"offset="300">
+      <div id="certifications"><Certifications/></div>
+      </ScrollAnimation>
 
       <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
       <div id="education"><Education/></div>

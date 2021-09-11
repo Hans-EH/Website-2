@@ -216,7 +216,6 @@ button:hover{
   border-color: var(--text);
 }
 .btnDown{
-  padding: 0.1em;
   color: var(--highlightText); 
   font-size: 2em; 
   border:  solid 0.1em;
