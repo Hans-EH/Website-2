@@ -96,7 +96,7 @@ h4{
 .column {
   float: left;
   width: 50%;
-  min-width: 20em;
+  min-width: 25em;
 }
 
 .column2 {
