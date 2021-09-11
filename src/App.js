@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Greeting from './components/Greeting';
-import Certifications from './components/Certifications';
+//import Certifications from './components/Certifications';
 import Education from './components/Education';
 import About from './components/About';
 import Experience from './components/Experience';
