@@ -234,3 +234,10 @@ button:hover{
   border-color:var(--highlightColor) !important;
   transition: 1s;
 }
+
+.fadeBlockIn{
+  animation: fadein 3s;
+}
+
+.fadeBlockOut{
+}

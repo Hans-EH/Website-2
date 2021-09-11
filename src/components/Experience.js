@@ -43,7 +43,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>July 2021 - Present </h4>
               <h3>
-              [PLEASE INSERT DESCRIPTIVE TEXT]
+              As an It security analyst at the cryptocurrency startup Januar I was responsible for making sure the tech team’s code was secure through setting up proper methodologies and pen-testing the system. Additionally, I did a lot of risk analysis of potential partners, and internal risk analysis of current threats. I was also in charge of the general IT security at the company.
 
               </h3>
             </div>
@@ -61,7 +61,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>2020 - 2024 (4 days a year) </h4>
               <h3>
-              [PLEASE INSERT DESCRIPTIVE TEXT]
+              As a lay judge in the high court, I get to hear a lot of different cases, from monetary theft to criminal cases. My job is together with 3 judges and 2 other lay judges to give verdicts and determine the consequences if one is found guilty. From this I have learned a new way of thinking, and a lot of Danish law. The job is circa 4 days a year.
 
               </h3>
             </div>
@@ -79,7 +79,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>2019 - 2020 </h4>
               <h3>
-              [PLEASE INSERT DESCRIPTIVE TEXT]
+              At Q8 I was responsible for the entire shop, as there was only ever one at work. This meant that all cleaning, sorting, making food and fixing spontaneous problems such as the car wash breaking was left to me. This developed my problem-solving abilities, as there was never anyone you could ask for help.
 
               </h3>
             </div>
@@ -97,8 +97,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>2018 - 2019 </h4>
               <h3>
-                [PLEASE INSERT DESCRIPTIVE TEXT]
-              </h3>
+              At Bauhaus I was responsible for customer satisfaction and doing cashier work.              </h3>
             </div>
           )}
           {myExp === "Bilka" && (
@@ -114,7 +113,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>2017 - 2018 </h4>
               <h3>
-              [PLEASE INSERT DESCRIPTIVE TEXT]
+              At the supermarket chain Bilka, I was responsible for receiving packages and sorting them into their correct locations in the warehouse.
 
               </h3>
             </div>
