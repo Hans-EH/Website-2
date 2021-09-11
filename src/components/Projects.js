@@ -85,9 +85,20 @@ const Projects = () => {
                 Reducing Carbon Footprint of Electricity
               </h2>
               <h4 style={{ marginTop: "0%" }}>
-                2021 • JavaScript, MongoDB, Node.js
+                2021 • JavaScript, MongoDB, Node.js, REST API
               </h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h3>
+                We analysed a problem and created requirements through a
+                detailed 80-page rapport. From this we deduced that we could cut
+                around 4% of the global carbon footprint if people used
+                electricity when it was more sustainable. From this we created a
+                dynamic website that through a REST API got current energy data
+                live and displayed it using graphs. Using a SARIMA model we tried
+                to forecast when throughout the day was the best time to use
+                electricity. Using the model’s information, we made a custom
+                recommendation system that gave individual recommendation based
+                upon when was the cleanest time to use electricity.
+              </h3>
               <a
                 href="https://github.com/Hans-EH/sustaininator"
                 class="btnDown"
@@ -97,7 +108,9 @@ const Projects = () => {
               •
               <a href="https://youtu.be/XguRPLWmR10" class="btnDown">
                 Demo
-              </a>•<a href="http://Sustaininator.eu" class="btnDown">
+              </a>
+              •
+              <a href="http://Sustaininator.eu" class="btnDown">
                 Website
               </a>
             </div>
