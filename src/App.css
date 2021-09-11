@@ -221,7 +221,7 @@ button:hover{
   font-size: 2em; 
   border:  solid 0.1em;
   border-color: transparent;
-  height: 50%;
+  height: 100%;
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 5em !important;
@@ -237,7 +237,4 @@ button:hover{
 
 .fadeBlockIn{
   animation: fadein 3s;
-}
-
-.fadeBlockOut{
 }
