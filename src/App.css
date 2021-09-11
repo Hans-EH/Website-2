@@ -216,13 +216,15 @@ button:hover{
   border-color: var(--text);
 }
 .btnDown{
-  padding: 0.5rem;
+  padding: 0.1em;
   color: var(--highlightText); 
   font-size: 2em; 
   border:  solid 0.1em;
   border-color: transparent;
   height: 50%;
-  margin: 2rem;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 5em !important;
 
 
 }

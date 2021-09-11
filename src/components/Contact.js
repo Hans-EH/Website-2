@@ -15,9 +15,9 @@ const Greeting = () => {
 
       <a href="mailto:Hansheje@hotmail.com" class="btnDown">Email
       </a>
-      <a href="https://www.linkedin.com/in/hans-heje-529849199/" class="btnDown"> LinkedIn </a>
+      <a  href="https://www.linkedin.com/in/hans-heje-529849199/" class="btnDown"> LinkedIn </a>
       <a href="https://github.com/Hans-EH" class="btnDown"> Github </a>
-      <a href="Hans-CV.pdf" class="btnDown" download="Hans Heje Resume"> Resume↓ </a>
+      <a href="Hans-CV.pdf" class="btnDown" download="Hans Heje Resume"> Resume </a>
     </body>
   );
 };
