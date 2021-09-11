@@ -3,7 +3,14 @@ import "../App.css";
 import React, { useState } from "react";
 
 const Projects = () => {
-  const exp = ["Sustanify","Compliment Clock","Math App","CV Generator","Website 2.0","Website 1.0"];
+  const exp = [
+    "Sustanify",
+    "Compliment Clock",
+    "Math App",
+    "CV Generator",
+    "Website 2.0",
+    "Website 1.0",
+  ];
   const [myExp, setmyExp] = useState("Chainalysis");
   return (
     <body>
@@ -78,7 +85,23 @@ const Projects = () => {
                 Mobile Math App
               </h2>
               <h4 style={{ marginTop: "0%" }}>2021 • Digital Electronics, C</h4>
-              <h3>[DESCRIPTION MISSING]</h3>
+              <h3>
+                For my A level project, I decided to make a mobile app, that
+                could motivate and help kids learn different types of basic
+                calculations using a mobile app. For the project, I designed,
+                tested, and created the final project, including graphics done
+                in photoshop, coding and music using fruity loops studio. The
+                justification for this project and all details is described in
+                the report. The application is not the best, but it was my first
+                attempt at coding in over 6 years. I learned some of the basics
+                of object-oriented coding, and just generally how to design a
+                mobile application. If I were to attempt this project again,
+                then I know exactly what I would change. The project totals
+                around 1000 lines of code and was done using the unity game
+                engine.
+              </h3>
+              <a href="mailto:Hansheje@hotmail.com" class="btnDown">Github</a>•
+              <a href="mailto:Hansheje@hotmail.com" class="btnDown">Video</a>
             </div>
           )}
         </div>
