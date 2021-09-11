@@ -8,7 +8,7 @@ const Greeting = (props) => {
             <h2 style={{marginBottom: '0em', paddingLeft: '1%',color:'var(--highlightText)'}}>Hi, my name is</h2>
             </div>
             <div class="fade-in2">
-            <text style={{ fontSize: '7em',  fontFamily: 'Fantasy', marginTop: '0em' }}>Hans Heje</text>
+            <text style={{ fontSize: '7em',  fontFamily: '"Copperplate", fantasy', marginTop: '0em',marginBottom: '0em', padding: "0em" }}>Hans Heje</text>
             </div>
             <div class="fade-in3">
             <h2 style={{paddingLeft: '1%'}}>I'm a data enthusiast; cryptology lover; aspiring machine learning engineer. Currently working as an <a href="#experience"><span> associate IT security analyst </span></a> at Januar</h2>
