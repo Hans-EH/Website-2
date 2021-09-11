@@ -228,6 +228,7 @@ button:hover{
   margin-right: auto;
   margin-bottom: auto !important;
   margin-top: auto !important;
+  font-size: 1.9rem;
 }
 .btnDown:hover{
   border:  solid 0.1em;
