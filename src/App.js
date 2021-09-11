@@ -50,8 +50,8 @@ function App() {
 const styling = {
   position: 'relative',
   maxWidth: '53rem',
-  paddingLeft: "1%",
-  paddingRight: "1%"
+  paddingLeft: "1.5%",
+  paddingRight: "1.5%"
 
 }
 
