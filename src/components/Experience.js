@@ -4,11 +4,11 @@ import "../App.css";
 
 const Experience = () => {
   const exp = ["Januar", "Østre Landsret", "Q8", "Bauhaus", "Bilka"];
-  const [myExp, setmyExp] = useState("");
-
+  const [myExp, setmyExp] = useState("Januar");
   return (
     <>
       <h1>
+        <title>Professional experience</title>
         <span>02.</span> Where I have worked
       </h1>
       <div class="row">
@@ -41,7 +41,7 @@ const Experience = () => {
               >
                 Associate IT Security Analyst <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>June 2021 - Present </h4>
+              <h4 style={{ marginTop: "0%" }}>July 2021 - Present </h4>
               <h3>
               [PLEASE INSERT DESCRIPTIVE TEXT]
 

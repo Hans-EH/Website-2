@@ -19,7 +19,7 @@ const Education = () => {
         <div class="column3">
           <h2>Software Engineering, GPA 3.7; grade 10.5</h2>
           <h2>
-            Math, Biotech., Robot-tech. and Chemistry A-levels: Grade 10.6
+            Math, Biotech., Robot-tech. and Chemistry A-levels: GPA 3.7; Grade 10.5
           </h2>
         </div>
       </div>
