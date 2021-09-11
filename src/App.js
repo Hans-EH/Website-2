@@ -49,7 +49,10 @@ function App() {
 
 const styling = {
   position: 'relative',
-  maxWidth: '50em',
+  maxWidth: '53rem',
+  paddingLeft: "1%",
+  paddingRight: "1%"
+
 }
 
 const margin = {

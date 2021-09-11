@@ -9,7 +9,7 @@ const About = () => {
       </h1>
 
       <div class="row">
-        <div class="column">
+        <div class="column" style={{paddingRight: "1%"}}>
           <h3>
             {" "}
             An ambitious Danish boy born in 1999 currently residing in the
@@ -19,7 +19,7 @@ const About = () => {
             primary technological competencies lie in the following areas: OOP
             (Java, C#, and Python), full stack development (MERN stack, SQL),
             digital electronics (C) and general data science. All of which I
-            have applied in larger solo or group projects consisting of 6-7
+            have applied in large solo- or group projects consisting of 6-7
             people.{" "}
           </h3>
         </div>

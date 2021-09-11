@@ -157,6 +157,9 @@ h4{
 .fade-in3{
   animation: fadein 8s;
 }
+.fade-in4{
+  animation: fadein 6s;
+}
 
 @keyframes fadein {
   from { opacity: 0; }
