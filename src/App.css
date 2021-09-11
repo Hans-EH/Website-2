@@ -224,9 +224,10 @@ button:hover{
   border:  solid 0.1em;
   border-color: transparent;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   margin-bottom: auto !important;
+  margin-top: auto !important;
 }
 .btnDown:hover{
   border:  solid 0.1em;

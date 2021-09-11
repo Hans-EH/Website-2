@@ -2,7 +2,7 @@ import '../App.css';
 
 const Footer = () => {
     return (
-        <footer style={{ marginTop: "5rem"}}>
+        <footer>
             <title>Footer</title>
         </footer>
     )
