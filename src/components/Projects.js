@@ -21,7 +21,7 @@ const Projects = () => {
         <span>05.</span> Highlighted Projects
       </h1>
       <div class="row">
-        <div class="column4">
+        <div class="column4" style={{height: '25em'}}>
           <div className="btn-group" role="group" aria-label="Basic example">
             {exp.map((profession) => (
               <div>
