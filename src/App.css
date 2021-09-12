@@ -209,7 +209,7 @@ a{
   transition: all 0.5s;
   cursor: pointer;
   border-top: 0.1em dashed var(--highlightBackground);
-border-radius: 1.5em 0px 0px 0px;
+border-radius: 1em 0px 0px 0px;
 }
 button:focus{
   border: solid 0.3em;
