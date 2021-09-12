@@ -208,16 +208,21 @@ a{
   font-size: 100%;
   transition: all 0.5s;
   cursor: pointer;
+  border-top: 4px dashed var(--highlightBackground);
+border-radius: 40px 0px 0px 0px;
 }
 button:focus{
   border: solid 0.3em;
   border-color: var(--highlightText);
   color: var(--highlightText);
   transition: 0s;
+  border-radius: 0px 0px 0px 0px !important;
+
 }
 button:hover{
   border:  solid 0.2em;
   border-color: var(--text);
+  border-radius: 0px 0px 0px 0px !important;
 }
 .btnDown{
   color: var(--highlightText); 
