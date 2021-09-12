@@ -208,8 +208,8 @@ a{
   font-size: 100%;
   transition: all 0.5s;
   cursor: pointer;
-  border-top: 0.2em dashed var(--highlightBackground);
-border-radius: 2em 0px 0px 0px;
+  border-top: 0.1em dashed var(--highlightBackground);
+border-radius: 1.5em 0px 0px 0px;
 }
 button:focus{
   border: solid 0.3em;
