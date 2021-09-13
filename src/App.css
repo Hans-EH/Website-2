@@ -38,6 +38,18 @@
 }
 
 :root{
+  --highlightText: rgb(0, 255, 0);
+  --importantText: rgb(226, 255, 215);
+  --titleText: rgb(222, 255, 215);
+  --text: rgb(180, 158, 170);
+  --background: rgb(8, 35, 0);
+  --transparent: rgba(255, 0, 149, 0);
+  --highlightBackground: rgb(9, 75, 0);
+}
+/*
+Pink:
+
+:root{
   --highlightText: rgb(255, 0, 149);
   --importantText: rgb(255, 215, 239);
   --titleText: rgb(255, 215, 239);
@@ -46,6 +58,7 @@
   --transparent: rgba(255, 0, 149, 0);
   --highlightBackground: rgb(75, 0, 0);
 }
+*/
 strong{
   color: var(--titleText);
 }
