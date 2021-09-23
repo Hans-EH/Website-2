@@ -38,7 +38,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Associate IT Security Analyst <span>@ {myExp}</span>
+                Student IT Security Analyst <span>@ {myExp}</span>
               </h2>
               <h4 style={{ marginTop: "0%" }}>July 2021 - Present </h4>
               <h3>
