@@ -38,12 +38,11 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Cryptocurrency course <span>@ {myExp}</span>
+                Blockchain and Cryptocurrency Course <span>@ {myExp}</span>
               </h2>
               <h4 style={{ marginTop: "0%" }}>September 2021 </h4>
               <h3>
-Learned the basis of blockchain and its technology. Learned about different cryptocurrencies, their usage, and how they can be exploited. Learned mitigations against cryptoscams and hacks. Learned cryptoanalysis of blockchains and how to track and understand the proof of work, smart contracts, NFT's and how the transactions work.
-              </h3>
+              Learned the basis of blockchain and its technology. Learned about different cryptocurrencies, their usage, and how they can be exploited. Learned mitigations against crypto scams and hacks. Learned cryptanalysis of blockchains and how to track and understand the proof of work, smart contracts, NFT's and how the transactions can be tracked.              </h3>
             </div>
           )}
         </div>
