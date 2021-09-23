@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Experience = () => {
-  const exp = ["Januar", "Østre Landsret", "Q8", "Bauhaus", "Bilka"];
+  const exp = ["Januar", "Østre Landsret", "Tutor", "Q8", "Bauhaus", "Bilka"];
   const [myExp, setmyExp] = useState("Januar");
   return (
     <>
@@ -62,7 +62,7 @@ const Experience = () => {
               >
                 Lay Judge <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2020 - 2024 (4 days a year) </h4>
+              <h4 style={{ marginTop: "0%" }}>2020 - 2024 (4 days a year) • Volunteer </h4>
               <h3>
                 As a lay judge in the high court, I get to hear a lot of
                 different cases, from monetary theft to criminal cases. My job
@@ -71,6 +71,22 @@ const Experience = () => {
                 From this I have learned a new way of thinking, and a lot of
                 Danish law. The job is circa 4 days a year.
               </h3>
+            </div>
+          )}
+                    {myExp === "Tutor" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Tutor / "Rusinstruktør" <span>@ {myExp}</span>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>June - December 2021 • Volunteer </h4>
+              <h3>
+              With 6 others handled the study start of the new bachelor students of one old study line and one entirely new study line, in total consisting of circa 85 students. Planed multiple events and trips, and helped with any incoming questions and concerns.              </h3>
             </div>
           )}
           {myExp === "Q8" && (
