@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Experience = () => {
-  const exp = ["Januar", "Østre Landsret", "Tutor", "Q8", "Bauhaus", "Bilka"];
+  const exp = ["Januar", "Østre Landsret", "Aalborg University", "Q8", "Bauhaus", "Bilka"];
   const [myExp, setmyExp] = useState("Januar");
   return (
     <>
@@ -73,7 +73,7 @@ const Experience = () => {
               </h3>
             </div>
           )}
-                    {myExp === "Tutor" && (
+                    {myExp === "Aalborg University" && (
             <div>
               <h2
                 style={{
