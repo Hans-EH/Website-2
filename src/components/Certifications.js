@@ -42,7 +42,7 @@ const Certifications = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>September 2021 </h4>
               <h3>
-              Learned the basis of blockchain and its technology. Learned about different cryptocurrencies, their usage, and how they can be exploited. Learned mitigations against crypto scams and hacks. Learned cryptanalysis of blockchains and how to track and understand the proof of work, smart contracts, NFT's and how the transactions can be tracked and analysed.              </h3>
+              Learned the basis of blockchain and its technology. Learned about different cryptocurrencies, their usage, and how they can be exploited. Learned mitigations against crypto scams and hacks. Learned Blockchain analysis / cryptanalysis of blockchains and how to track and understand the proof of work, smart contracts, NFT's and how the transactions can be tracked and analysed.              </h3>
             </div>
           )}
         </div>
