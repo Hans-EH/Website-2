@@ -1,13 +1,9 @@
 import "../App.css";
-import {Helmet} from "react-helmet";
 
-const Greeting = () => {
+const Contact = () => {
   return (
     <body>
-                <Helmet>
-                <title>Hans Heje - Std. Software Engineer</title>
-      <meta name="description" content="utf-8"></meta>
-      </Helmet>
+      <title>Feel free to contact me</title>
       <h1>
         <span>06.</span> Contact
       </h1>
@@ -31,4 +27,4 @@ const Greeting = () => {
 //    backgroundColor: 'black'
 //}
 
-export default Greeting;
+export default Contact;

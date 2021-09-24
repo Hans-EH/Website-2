@@ -1,13 +1,9 @@
 import "../App.css";
-import {Helmet} from "react-helmet";
 
 const About = () => {
   return (
     <body>
-      <Helmet>
       <title>Who am I?</title>
-      <meta name="description" content="utf-8"></meta>
-      </Helmet>
       <h1 style={{ marginBottom: "0%" }}>
         <span>01.</span> About me
       </h1>
