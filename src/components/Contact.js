@@ -5,7 +5,7 @@ const Greeting = () => {
   return (
     <body>
                 <Helmet>
-                <title>Get in touch with me</title>
+                <title>Hans Heje - Std. Software Engineer</title>
       <meta name="description" content="utf-8"></meta>
       </Helmet>
       <h1>
