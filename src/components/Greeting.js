@@ -1,9 +1,13 @@
 import '../App.css';
+import {Helmet} from "react-helmet";
 
 const Greeting = (props) => {
     return (
         <body style={{marginBottom: "10%"}}>
-            <title>Greetings, welcome to my personal web portfolio</title>
+                  <Helmet>
+                  <title>Greetings, welcome to my personal web portfolio</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
             <div class="fade-in1">
             <h2 style={{marginBottom: '0em', paddingLeft: '1%',color:'var(--highlightText)'}}>Hi, my name is</h2>
             </div>

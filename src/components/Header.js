@@ -1,9 +1,13 @@
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 const Header = () => {
   return (
     <header>
-        <title>Header and hyperlinks</title>
+                        <Helmet>
+                        <title>Header and hyperlinks</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
       <div class="realHeader">
         <h4>
           &nbsp;&nbsp;<a href="#about">

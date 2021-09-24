@@ -1,9 +1,13 @@
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 const Education = () => {
   return (
     <body>
-        <title>Educational background</title>
+                      <Helmet>
+                <title>Educational background</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
       <h1>
         <span>04.</span> Education
       </h1>

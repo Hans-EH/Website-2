@@ -1,9 +1,13 @@
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 const Greeting = () => {
   return (
     <body>
-        <title>Get in touch with me</title>
+                <Helmet>
+                <title>Get in touch with me</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
       <h1>
         <span>06.</span> Contact
       </h1>

@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 const Certifications = () => {
   const exp = ["Chainalysis"];
   const [myExp, setmyExp] = useState("Chainalysis");
   return (
     <>
+          <Helmet>
+      <title>Certifications</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
       <h1>
-        <title>Certications </title>
+
         <span>03.</span> Courses and Certifications
       </h1>
       <div class="row">

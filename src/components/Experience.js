@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 const Experience = () => {
   const exp = ["Januar", "Østre Landsret", "Aalborg University", "Q8", "Bauhaus", "Bilka"];
@@ -7,7 +8,10 @@ const Experience = () => {
   return (
     <>
       <h1>
-        <title>Professional experience</title>
+      <Helmet>
+      <title>Professional experience</title>
+      <meta name="description" content="utf-8"></meta>
+      </Helmet>
         <span>02.</span> Where I have worked
       </h1>
       <div class="row">

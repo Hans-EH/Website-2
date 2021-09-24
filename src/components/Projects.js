@@ -1,4 +1,5 @@
 import "../App.css";
+import {Helmet} from "react-helmet";
 
 import React, { useState } from "react";
 
@@ -14,9 +15,12 @@ const Projects = () => {
   const [myExp, setmyExp] = useState("Sustanify");
   return (
     <body>
-      <title>
+                              <Helmet>
+                              <title>
         Here is a collection of my highlighted projects that I have done
-      </title>
+      </title>      <meta name="description" content="utf-8"></meta>
+      </Helmet>
+ 
       <h1>
         <span>05.</span> Highlighted Projects
       </h1>
