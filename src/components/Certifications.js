@@ -38,11 +38,26 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Blockchain and Cryptocurrency Course <span>@ {myExp}</span>
+                Cryptocurrency Course <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>September 2021 </h4>
+              <h4 style={{ marginTop: "0%" }}>September 2021 • Grade: 96% </h4>
               <h3>
-              Learned the basis of blockchain and its technology. Learned about different cryptocurrencies, their usage, and how they can be exploited. Learned mitigations against crypto scams and hacks. Learned Blockchain analysis / cryptanalysis of blockchains and how to track and understand the proof of work, smart contracts, NFT's and how the transactions can be tracked and analysed.              </h3>
+                Learned the basis of blockchain and its technology. Learned
+                about different cryptocurrencies, their usage, and how they can
+                be exploited. Learned mitigations against crypto scams and
+                hacks. Learned Blockchain analysis / cryptanalysis of
+                blockchains and how to track and understand the proof of work,
+                smart contracts and NFTs. Learned proper risk management and compliance of cryptocurrencies.{" "}
+              </h3>
+              <div class="image-holder">
+                <a href="https://verify.skilljar.com/c/gcp2tkv2fjea">
+                  <img
+                    src="/images/Chainalysis-Certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+                </a>
+              </div>
             </div>
           )}
         </div>
