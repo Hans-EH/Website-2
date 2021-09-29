@@ -86,7 +86,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>June - December 2021 • Volunteer </h4>
               <h3>
-              With 6 others handled the study start of the new bachelor students of one pre existing study line and one entirely new study line, in total consisting of circa 85 students. Planed multiple events and trips, and helped with any incoming questions and concerns.              </h3>
+              With 6 others handled the study start of the new bachelor students of one pre existing study line and one entirely new study line, in total consisting of circa 85 students. Planned multiple events and trips, and helped with any incoming questions and concerns.              </h3>
             </div>
           )}
           {myExp === "Q8" && (
