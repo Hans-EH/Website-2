@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-
+/*green
 :root{
   --highlightText: rgb(0, 255, 0);
   --importantText: rgb(226, 255, 215);
@@ -46,9 +46,10 @@
   --transparent: rgba(255, 0, 149, 0);
   --highlightBackground: rgb(9, 75, 0);
 }
+*/
 /*
 Pink:
-
+*/
 :root{
   --highlightText: rgb(255, 0, 149);
   --importantText: rgb(255, 215, 239);
@@ -58,7 +59,7 @@ Pink:
   --transparent: rgba(255, 0, 149, 0);
   --highlightBackground: rgb(75, 0, 0);
 }
-*/
+
 strong{
   color: var(--titleText);
 }
@@ -249,10 +250,8 @@ button:hover{
   font-size: 1.5em;
 }
 .btnDown:hover{
-  border:  solid 0.1em;
-  background-color: var(--highlightBackground);
-  border-color:var(--highlightColor) !important;
-  transition: 1s;
+  color:var(--titleText) !important;
+  transition: 0.2s;
 }
 
 .fadeBlockIn{
