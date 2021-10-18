@@ -67,7 +67,7 @@ const Projects = () => {
                 href="https://www.youtube.com/watch?v=zRxGmwva2Es"
                 class="btnDown"
               >
-                Demo
+                Showcase
               </a>
             </div>
           )}
@@ -107,7 +107,7 @@ const Projects = () => {
               </a>
               •
               <a href="https://youtu.be/XguRPLWmR10" class="btnDown">
-                Demo
+                Showcase
               </a>
               •
               <a href="http://Sustaininator.eu" class="btnDown">
@@ -152,7 +152,7 @@ const Projects = () => {
                 href="https://www.youtube.com/watch?v=qJ_S0RqMAWI"
                 class="btnDown"
               >
-                Demo
+                Showcase
               </a>
             </div>
           )}
@@ -199,7 +199,7 @@ const Projects = () => {
                 href="https://www.youtube.com/watch?v=8PGPephRR24"
                 class="btnDown"
               >
-                Demo
+                Showcase
               </a>
             </div>
           )}

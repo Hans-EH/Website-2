@@ -12,7 +12,7 @@ const About = () => {
         <div class="column" style={{paddingRight: "1%"}}>
           <h3>
             {" "}
-            An ambitious Danish boy born in 1999 currently residing in the
+            An ambitious Danish man born in 1999 currently residing in the
             capital region of Denmark. My passion is anything data related:
             Visualizing, extrapolating, and securing the data. Therefore, it is
             fitting that I’m currently doing a BSc in Software engineering. My
