@@ -11,7 +11,7 @@ const Projects = () => {
     "Website 2.0",
     "Website 1.0",
   ];
-  const [myExp, setmyExp] = useState("Sustanify");
+  const [myPROJECT, setMyProjects] = useState("Sustanify");
   return (
     <body>
                               <title>
@@ -23,15 +23,15 @@ const Projects = () => {
       <div class="row">
         <div class="column4" style={{height: '25em'}}>
           <div className="btn-group" role="group" aria-label="Basic example">
-            {exp.map((profession) => (
+            {exp.map((projects) => (
               <div>
                 <button
                   type="button"
-                  key={profession}
+                  key={projects}
                   className={"btn"}
-                  onClick={() => setmyExp(profession)}
+                  onClick={() => setMyProjects(projects)}
                 >
-                  {profession.toLocaleUpperCase()}
+                  {projects.toLocaleUpperCase()}
                 </button>
                 <br />
               </div>
@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="column5">
-          {myExp === "Compliment Clock" && (
+          {myPROJECT === "Compliment Clock" && (
             <div>
               <h2
                 style={{
@@ -73,7 +73,7 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
-          {myExp === "Sustanify" && (
+          {myPROJECT === "Sustanify" && (
             <div>
               <h2
                 style={{
@@ -117,7 +117,7 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
-          {myExp === "Math App" && (
+          {myPROJECT === "Math App" && (
             <div>
               <h2
                 style={{
@@ -158,7 +158,7 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
-          {myExp === "CV Generator" && (
+          {myPROJECT === "CV Generator" && (
             <div>
               <h2
                 style={{
@@ -205,7 +205,7 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
-          {myExp === "Website 2.0" && (
+          {myPROJECT === "Website 2.0" && (
             <div>
               <h2
                 style={{
@@ -233,7 +233,7 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
-          {myExp === "Website 1.0" && (
+          {myPROJECT === "Website 1.0" && (
             <div>
               <h2
                 style={{

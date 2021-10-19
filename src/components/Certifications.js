@@ -3,7 +3,8 @@ import "../App.css";
 
 const Certifications = () => {
   const exp = ["Chainalysis"];
-  const [myExp, setmyExp] = useState("Chainalysis");
+  const [myCert, setMyCert] = useState("Chainalysis");
+  
   return (
     <>
       <title>Certifications</title>
@@ -14,15 +15,15 @@ const Certifications = () => {
       <div class="row">
         <div class="column4">
           <div className="btn-group" role="group" aria-label="Basic example">
-            {exp.map((profession) => (
-              <div>
+            {exp.map((Certifications) => (
+              <div >
                 <button
                   type="button"
-                  key={profession}
+                  key={Certifications}
                   className={"btn"}
-                  onClick={() => setmyExp(profession)}
+                  onClick={() => setMyCert(Certifications)}
                 >
-                  {profession.toLocaleUpperCase()}
+                  {Certifications.toLocaleUpperCase()}
                 </button>
                 <br />
               </div>
@@ -30,7 +31,7 @@ const Certifications = () => {
           </div>
         </div>
         <div class="column5">
-          {myExp === "Chainalysis" && (
+          {myCert === "Chainalysis" && (
             <div>
               <h2
                 style={{
@@ -39,7 +40,7 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Cryptocurrency Course <span>@ {myExp}</span>
+                Cryptocurrency Course <span>@ {myCert}</span>
               </h2>
               <h4 style={{ marginTop: "0%" }}>September 2021 • Grade: 96% </h4>
               <h3>
@@ -67,7 +68,7 @@ const Certifications = () => {
   );
 };
 
-//const ProfessionImage = ({ src }) => {
+//const CertificationsImage = ({ src }) => {
 //  const props = useSpring({ opacity: 1, from: { opacity: 0 } });
 //  return (
 //    <animated.img
