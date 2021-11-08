@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Certifications = () => {
-  const exp = ["Chainalysis"];
-  const [myCert, setMyCert] = useState("Chainalysis");
+  const exp = ["Cryptography","Blockchain"];
+  const [myCert, setMyCert] = useState("Cryptography");
   
   return (
     <>
@@ -31,7 +31,7 @@ const Certifications = () => {
           </div>
         </div>
         <div class="column5">
-          {myCert === "Chainalysis" && (
+        {myCert === "Cryptography" && (
             <div>
               <h2
                 style={{
@@ -40,7 +40,32 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Cryptocurrency Course <span>@ {myCert}</span>
+                {myCert} Course <span>@ Stanford Online</span>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>November 2021 • Grade: 92% </h4>
+              <h3>
+              Learned classic cryptography, DES and AES, the RSA system, digital signatures, secret sharing, the discrete logarithm problem, and its use cases. Learned different types of symmetric and asymmetric cryptography, including the math behind it and the different types of attacks against them, such as but not limited to: Chosen plaintext attack (CPA), Chosen Ciphertext Attack (CCA), Birthday attack and existential forgery. Learned about key principles, such as semantic security, perfect secrecy, and integrity (Message Authentication Code).              </h3>
+              <div class="image-holder">
+                <a href="https://coursera.org/share/2eb5c4dcbaa5755bae2cc7d870391572">
+                  <img
+                    src="/images/Stanford-Cryptography1-Certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+                </a>
+              </div>
+            </div>
+          )}
+          {myCert === "Blockchain" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                {myCert}/Cryptocurrency Course <span>@ Chainalysis</span>
               </h2>
               <h4 style={{ marginTop: "0%" }}>September 2021 • Grade: 96% </h4>
               <h3>

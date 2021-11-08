@@ -109,10 +109,6 @@ const Projects = () => {
               <a href="https://youtu.be/XguRPLWmR10" class="btnDown">
                 Showcase
               </a>
-              •
-              <a href="http://Sustaininator.eu" class="btnDown">
-                Website
-              </a>
             </div>
           )}
         </div>
