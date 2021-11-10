@@ -7,10 +7,10 @@ const Certifications = () => {
   
   return (
     <>
-      <title>Certifications</title>
+      <title>Certificates</title>
       <h1>
 
-        <span>03.</span> Courses and Certifications
+        <span>03.</span> Courses and Certificates
       </h1>
       <div class="row">
         <div class="column4">
