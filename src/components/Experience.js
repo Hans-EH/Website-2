@@ -38,11 +38,11 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Student IT Security Analyst <span>@ {myExp}</span>
+                Student Cyber Security Engineer <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>July 2021 - Present </h4>
+              <h4 style={{ marginTop: "0%" }}>August 2021 - Present </h4>
               <h3>
-                As an It security analyst at the cryptocurrency startup Januar I
+                As a cyber security analyst at the cryptocurrency startup Januar I
                 was responsible for making sure the tech team’s code was secure
                 through setting up proper methodologies and pen-testing the
                 system. Additionally, I did a lot of risk analysis of potential
