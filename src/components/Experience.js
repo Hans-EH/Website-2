@@ -2,30 +2,54 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Experience = () => {
-  const exp = ["Januar", "Østre Landsret", "Aalborg University", "Q8", "Bauhaus", "Bilka"];
+  const exp = [
+    "Januar",
+    "Østre Landsret",
+    "Aalborg University",
+    "Q8",
+    "Bauhaus",
+    "Bilka",
+  ];
   const [myExp, setmyExp] = useState("Januar");
   return (
     <>
       <h1>
-      <title>Professional experience</title>
+        <title>Professional experience</title>
         <span>02.</span> Where I have worked
       </h1>
       <div class="row">
         <div class="column4">
           <div className="btn-group" role="group" aria-label="Basic example">
-            {exp.map((profession) => (
-              <div>
-                <button
-                  type="button"
-                  key={profession}
-                  className={"btn"}
-                  onClick={() => setmyExp(profession)}
-                >
-                  {profession.toLocaleUpperCase()}
-                </button>
-                <br />
-              </div>
-            ))}
+            {exp.map((profession) => {
+              if (myExp === profession) {
+                return (
+                  <div>
+                    <button
+                      type="button"
+                      key={profession}
+                      className={"btnSelect"}
+                      onClick={() => setmyExp(profession)}
+                    >
+                      {profession.toLocaleUpperCase()}
+                    </button>
+                    <br />
+                  </div>
+                );
+              } else
+                return (
+                  <div>
+                    <button
+                      type="button"
+                      key={profession}
+                      className={"btn"}
+                      onClick={() => setmyExp(profession)}
+                    >
+                      {profession.toLocaleUpperCase()}
+                    </button>
+                    <br />
+                  </div>
+                );
+            })}
           </div>
         </div>
         <div class="column5">
@@ -42,12 +66,13 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>August 2021 - Present </h4>
               <h3>
-                As a cyber security analyst at the cryptocurrency startup Januar I
-                was responsible for making sure the tech team’s code was secure
-                through setting up proper methodologies and pen-testing the
-                system. Additionally, I did a lot of risk analysis of potential
-                partners, and internal risk analysis of current threats. I was
-                also in charge of the general IT security at the company.
+                As a cyber security analyst at the cryptocurrency startup Januar
+                I was responsible for making sure the tech team’s code was
+                secure through setting up proper methodologies and pen-testing
+                the system. Additionally, I did a lot of risk analysis of
+                potential partners, and internal risk analysis of current
+                threats. I was also in charge of the general IT security at the
+                company.
               </h3>
             </div>
           )}
@@ -62,7 +87,9 @@ const Experience = () => {
               >
                 Lay Judge <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2020 - 2024 (4 days a year) • Volunteer </h4>
+              <h4 style={{ marginTop: "0%" }}>
+                2020 - 2024 (4 days a year) • Volunteer{" "}
+              </h4>
               <h3>
                 As a lay judge in the high court, I get to hear a lot of
                 different cases, from monetary theft to criminal cases. My job
@@ -73,7 +100,7 @@ const Experience = () => {
               </h3>
             </div>
           )}
-                    {myExp === "Aalborg University" && (
+          {myExp === "Aalborg University" && (
             <div>
               <h2
                 style={{
@@ -84,9 +111,16 @@ const Experience = () => {
               >
                 Tutor / "Rusinstruktør" <span>@ {myExp}</span>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>June - December 2021 • Volunteer </h4>
+              <h4 style={{ marginTop: "0%" }}>
+                June - December 2021 • Volunteer{" "}
+              </h4>
               <h3>
-              With 6 others handled the study start of the new bachelor students of one pre existing study line and one entirely new study line, in total consisting of circa 85 students. Planned multiple events and trips, and helped with any incoming questions and concerns.              </h3>
+                With 6 others handled the study start of the new bachelor
+                students of one pre existing study line and one entirely new
+                study line, in total consisting of circa 85 students. Planned
+                multiple events and trips, and helped with any incoming
+                questions and concerns.{" "}
+              </h3>
             </div>
           )}
           {myExp === "Q8" && (

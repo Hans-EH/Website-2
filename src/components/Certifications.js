@@ -4,7 +4,7 @@ import "../App.css";
 const Certifications = () => {
   const exp = ["Cryptography","Blockchain"];
   const [myCert, setMyCert] = useState("Cryptography");
-  
+
   return (
     <>
       <title>Certificates</title>
@@ -15,7 +15,21 @@ const Certifications = () => {
       <div class="row">
         <div class="column4">
           <div className="btn-group" role="group" aria-label="Basic example">
-            {exp.map((Certifications) => (
+            {exp.map((Certifications) => {
+              if(myCert === Certifications) {
+                return(
+                <div >
+                <button
+                  type="button"
+                  key={Certifications}
+                  className={"btnSelect"}
+                  onClick={() => setMyCert(Certifications)}
+                >
+                  {Certifications.toLocaleUpperCase()}
+                </button>
+                <br />
+                </div>)
+              }else return (
               <div >
                 <button
                   type="button"
@@ -27,7 +41,8 @@ const Certifications = () => {
                 </button>
                 <br />
               </div>
-            ))}
+              )
+            })}
           </div>
         </div>
         <div class="column5">

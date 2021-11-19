@@ -231,8 +231,24 @@ button:focus{
   color: var(--highlightText);
   transition: 0s;
   border-radius: 0px 0px 0px 0px !important;
-
 }
+.btnSelect{
+  width: 90%;
+  height: 3em;
+  text-decoration-color: var(--highlightText);
+  background-color: var(--transparent);
+  display: inline-block;
+  border: solid 0.3em;
+  border-color: var(--highlightText);
+  color: var(--highlightText);
+  text-align: center;
+  transition: 0s;
+  font-size: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
 button:hover{
   border:  solid 0.2em;
   border-color: var(--text);

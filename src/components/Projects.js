@@ -23,8 +23,22 @@ const Projects = () => {
       <div class="row">
         <div class="column4" style={{height: '25em'}}>
           <div className="btn-group" role="group" aria-label="Basic example">
-            {exp.map((projects) => (
-              <div>
+              {exp.map((projects) => {
+              if(myPROJECT === projects) {
+                return(
+                <div >
+                <button
+                  type="button"
+                  key={projects}
+                  className={"btnSelect"}
+                  onClick={() => setMyProjects(projects)}
+                >
+                  {projects.toLocaleUpperCase()}
+                </button>
+                <br />
+                </div>)
+              }else return (
+              <div >
                 <button
                   type="button"
                   key={projects}
@@ -35,7 +49,8 @@ const Projects = () => {
                 </button>
                 <br />
               </div>
-            ))}
+              )
+            })}
           </div>
         </div>
         <div class="column5">
