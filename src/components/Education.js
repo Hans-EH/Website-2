@@ -18,9 +18,9 @@ const Education = () => {
           </h2>
         </div>
         <div class="column3">
-        <h2 style={{marginBottom: "0%"}}><span>Aalborg University</span></h2>
+        <h2 style={{marginBottom: "0%"}}><a href="https://www.en.aau.dk/"><span>Aalborg University</span></a></h2>
           <h2 style={{marginTop: "0%", marginBottom: "5%"}}>BSc. Software Engineering, GPA 3.7; grade 10.5</h2>
-          <h2 style={{marginBottom: "0%"}}><span>Albertslund Gymnasium</span></h2>
+          <h2 style={{marginBottom: "0%"}}><a href="https://nextkbh.dk/gymnasier/albertslund-gymnasium"><span>Albertslund Gymnasium</span></a></h2>
           <h2 style={{marginTop: "0%", marginBottom: "5%"}}>
             Math, Biotech., Robot-tech. and Chemistry A-levels: GPA 3.7; Grade 10.5
           </h2>

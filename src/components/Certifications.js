@@ -55,7 +55,7 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                {myCert} Course <span>@ Stanford Online</span>
+                {myCert} Course <a href="https://www.stanford.edu/"><span>@ Stanford Online</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>November 2021 • Grade: 92% </h4>
               <h3>
@@ -80,7 +80,7 @@ const Certifications = () => {
                   color: "var(--titleText)",
                 }}
               >
-                {myCert}/Cryptocurrency Course <span>@ Chainalysis</span>
+                {myCert}/Cryptocurrency Course <a href="https://www.chainalysis.com/"><span>@ Chainalysis</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>September 2021 • Grade: 96% </h4>
               <h3>

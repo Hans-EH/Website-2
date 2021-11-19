@@ -62,7 +62,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Student Cyber Security Engineer <span>@ {myExp}</span>
+                Student Cyber Security Engineer <a href="https://www.januar.com/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>August 2021 - Present </h4>
               <h3>
@@ -85,7 +85,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Lay Judge <span>@ {myExp}</span>
+                Lay Judge <a href="https://domstol.dk/oestrelandsret/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>
                 2020 - 2024 (4 days a year) • Volunteer{" "}
@@ -109,7 +109,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Tutor / "Rusinstruktør" <span>@ {myExp}</span>
+                Tutor / "Rusinstruktør" <a href="https://www.en.aau.dk/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>
                 June - December 2021 • Volunteer{" "}
@@ -132,7 +132,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Service Attendant <span>@ {myExp}</span>
+                Service Attendant <a href="https://www.q8.dk/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>2019 - 2020 </h4>
               <h3>
@@ -153,7 +153,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Service Attendant <span>@ {myExp}</span>
+                Service Attendant <a href="https://www.bauhaus.dk/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>2018 - 2019 </h4>
               <h3>
@@ -171,7 +171,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Warehouse Worker <span>@ {myExp}</span>
+                Warehouse Worker <a href="https://www.bilka.dk/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>2017 - 2018 </h4>
               <h3>
