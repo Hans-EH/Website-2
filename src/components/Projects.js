@@ -4,8 +4,8 @@ import React, { useState } from "react";
 
 const Projects = () => {
   const exp = [
-    "Sustanify",
     "Website 2.0",
+    "Sustanify",
     "Website 1.0",
     "CV Generator",
     "Compliment Clock",

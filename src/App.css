@@ -225,7 +225,7 @@ a{
 }
 
 .btn{
-  width: 90%;
+  width: 95%;
   height: 3em;
   text-decoration-color: var(--highlightText);
   background-color: var(--transparent);
@@ -238,7 +238,7 @@ a{
   transition: all 0.5s;
   cursor: pointer;
   border-top: 0.1em dashed var(--highlightBackground);
-border-radius: 1em 0px 0px 0px;
+  border-radius: 1em 0px 0px 0px;
 }
 button:focus{
   border: solid 0.3em;
@@ -248,7 +248,7 @@ button:focus{
   border-radius: 0px 0px 0px 0px !important;
 }
 .btnSelect{
-  width: 90%;
+  width: 95%;
   height: 3em;
   text-decoration-color: var(--highlightText);
   background-color: var(--transparent);
@@ -262,6 +262,9 @@ button:focus{
   transition: all 0.5s;
   cursor: pointer;
   border-radius: 0px 0px 0px 0px !important;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .btnSelect:hover{
