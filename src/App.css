@@ -50,6 +50,20 @@
 /*
 Pink:
 */
+
+
+/*yellow
+:root{
+  --highlightText: rgb(229, 255, 0);
+  --importantText: rgb(248, 255, 215);
+  --titleText: rgb(251, 255, 215);
+  --text: rgb(178, 180, 158);
+  --background: rgb(33, 35, 0);
+  --transparent: rgba(251, 255, 0, 0);
+  --highlightBackground: rgb(67, 75, 0);
+}
+*/
+/* pink*/
 :root{
   --highlightText: rgb(255, 0, 149);
   --importantText: rgb(255, 215, 239);
@@ -59,7 +73,7 @@ Pink:
   --transparent: rgba(255, 0, 149, 0);
   --highlightBackground: rgb(75, 0, 0);
 }
-
+*/
 strong{
   color: var(--titleText);
 }
@@ -219,6 +233,7 @@ a{
   border: none;
   color: var(--text);
   text-align: center;
+  padding-left: 0%;
   font-size: 100%;
   transition: all 0.5s;
   cursor: pointer;
@@ -246,6 +261,12 @@ button:focus{
   font-size: 100%;
   transition: all 0.5s;
   cursor: pointer;
+  border-radius: 0px 0px 0px 0px !important;
+}
+
+.btnSelect:hover{
+  border:  solid 0.2em;
+  border-color: var(--highlightText);
   border-radius: 0px 0px 0px 0px !important;
 }
 

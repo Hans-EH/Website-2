@@ -5,11 +5,11 @@ import React, { useState } from "react";
 const Projects = () => {
   const exp = [
     "Sustanify",
-    "Compliment Clock",
-    "Math App",
-    "CV Generator",
     "Website 2.0",
     "Website 1.0",
+    "CV Generator",
+    "Compliment Clock",
+    "Math App",
   ];
   const [myPROJECT, setMyProjects] = useState("Sustanify");
   return (
