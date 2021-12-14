@@ -68,11 +68,11 @@ const Experience = () => {
               <h3>
                 As a cyber security analyst at the cryptocurrency startup Januar
                 I was responsible for making sure the tech team’s code was
-                secure through setting up proper methodologies and pen-testing
+                secure through setting up proper methodologies (S-SDLC) and pen-testing
                 the system. Additionally, I did a lot of risk analysis of
                 potential partners, and internal risk analysis of current
                 threats. I was also in charge of the general IT security at the
-                company.
+                company, as well as written policies for compliance and procedures.
               </h3>
             </div>
           )}
