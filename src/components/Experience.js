@@ -121,6 +121,13 @@ const Experience = () => {
                 multiple events and trips, and helped with any incoming
                 questions and concerns.{" "}
               </h3>
+              <div class="image-holder">
+                  <img
+                    src="/images/tutor-certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+              </div>
             </div>
           )}
           {myExp === "Q8" && (
