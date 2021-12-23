@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 const Projects = () => {
   const exp = [
+    "PrioTool",
     "Website 2.0",
     "Sustanify",
     "Website 1.0",
@@ -128,6 +129,60 @@ const Projects = () => {
           )}
         </div>
         <div class="column5">
+          {myPROJECT === "PrioTool" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                 Digital Repair Tool • Collaboration <a href="https://www.bluecity.dk/"><span>@ Blue City</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>
+                2021 • React.js, MongoDB, Java, SpringBoot
+              </h4>
+              <h3>
+              In this project we collaborate with the secondhand consumer elec-
+tronics company Blue City, a company that has a deprecated system
+for managing its repairs. This project aims to analyse the flaws of
+their current system and evaluate what a better system requires.
+The entirety of the problem and application domain is analysed
+thoroughly through interviews which condense to the following
+problem statement: "How do we make a system which increases the
+productivity of Blue City’s technicians and improves the repair flow of
+their workshop, lowering repair times and potentially increasing profits".
+We followed principles from object oriented analysis {"&"} design and
+fundamental principles of designing a good user experience to create 
+highly usable designs and solid system models. Implementing
+the design using technologies such as SpringBoot, Java, React.js and
+MongoDB, we create a system that largely satisfies user and system
+requirements. Testing ensures that the functionalities of the applica-
+tion fulfil the users’ requirements. Unit testing allowed us to confirm
+the reliability of the application. After participating in the usability
+test, Blue City expressed great excitement towards our current solu-
+tion, indicating that the user experience is impeccable and could be
+interested in adopting the system with just a few extra features. Even
+though some features are missing, the web application is still highly
+usable and reliable, potentially resulting in lower repair times and
+improved workflow of the Blue City repair shop.
+
+              </h3>
+              <a
+                href="https://github.com/Hans-EH/Prio-tool"
+                class="btnDown"
+              >
+                Github
+              </a>
+              •
+              <a href="https://www.youtube.com/watch?v=-thHbatX49Y" class="btnDown">
+                Showcase
+              </a>
+            </div>
+          )}
+        </div>
+        <div class="column5">
           {myPROJECT === "Math App" && (
             <div>
               <h2
@@ -227,7 +282,7 @@ const Projects = () => {
               >
                 Website 2.0
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2021 • React</h4>
+              <h4 style={{ marginTop: "0%" }}>2021 • React.js</h4>
               <h3>
                 I thought it was high time to revamp my website layout and
                 design, and in the meantime learning React: Something I have
