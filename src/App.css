@@ -253,7 +253,7 @@ button:focus{
   text-decoration-color: var(--highlightText);
   background-color: var(--transparent);
   display: inline-block;
-  border: solid 0.2em;
+  border: solid 0.1em;
   border-color: var(--highlightText);
   color: var(--highlightText);
   text-align: center;
@@ -268,7 +268,7 @@ button:focus{
 }
 
 .btnSelect:hover{
-  border:  solid 0.3em;
+  border:  solid 0.2em;
   border-color: var(--highlightText);
   border-radius: 0px 0px 0px 0px !important;
 }
