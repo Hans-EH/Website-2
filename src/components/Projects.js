@@ -144,8 +144,7 @@ const Projects = () => {
                 2021 • React.js, MongoDB, Java, SpringBoot
               </h4>
               <h3>
-              In this project we collaborate with the secondhand consumer elec-
-tronics company Blue City, a company that has a deprecated system
+              In this project we collaborate with the secondhand consumer electronics company Blue City, a company that has a deprecated system
 for managing its repairs. This project aims to analyse the flaws of
 their current system and evaluate what a better system requires.
 The entirety of the problem and application domain is analysed
@@ -158,11 +157,9 @@ fundamental principles of designing a good user experience to create
 highly usable designs and solid system models. Implementing
 the design using technologies such as SpringBoot, Java, React.js and
 MongoDB, we create a system that largely satisfies user and system
-requirements. Testing ensures that the functionalities of the applica-
-tion fulfil the users’ requirements. Unit testing allowed us to confirm
+requirements. Testing ensures that the functionalities of the application fulfil the users’ requirements. Unit testing allowed us to confirm
 the reliability of the application. After participating in the usability
-test, Blue City expressed great excitement towards our current solu-
-tion, indicating that the user experience is impeccable and could be
+test, Blue City expressed great excitement towards our current solution, indicating that the user experience is impeccable and could be
 interested in adopting the system with just a few extra features. Even
 though some features are missing, the web application is still highly
 usable and reliable, potentially resulting in lower repair times and
