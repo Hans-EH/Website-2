@@ -62,7 +62,7 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Student Cyber Security Engineer <a href="https://www.januar.com/"><span>@ {myExp}</span></a>
+                Cyber Security <a href="https://www.januar.com/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>August 2021 - Present </h4>
               <h3>
