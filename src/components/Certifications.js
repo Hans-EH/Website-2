@@ -93,6 +93,7 @@ how to transform a Boolean expression into an optimized Boolean expression,
 how to translate a Boolean expression to a logic circuit made up of logic components. 
 
 In the case of sequential circuits: The definition of the circuit with a transition-states graph, the encoding of their internal states, the decomposition into a combinational circuit that computes the next state and the outputs, and into a set of memory elements.
+Under the course, the usage of VHDL as a synthesis tool was continuously applied.
               </h3>
               <div class="image-holder">
                 <a href="https://coursera.org/share/3f6622c1138725a4f8c580ab777caf61">
