@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Certifications = () => {
-  const exp = ["Cryptography","Blockchain"];
+  const exp = ["Digital Systems","Cryptography","Blockchain"];
   const [myCert, setMyCert] = useState("Cryptography");
 
   return (
@@ -64,6 +64,40 @@ const Certifications = () => {
                 <a href="https://coursera.org/share/2eb5c4dcbaa5755bae2cc7d870391572">
                   <img
                     src="/images/Stanford-Cryptography1-Certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+                </a>
+              </div>
+            </div>
+          )}
+          {myCert === "Digital Systems" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                {myCert} Course <a href="https://www.uab.cat/"><span>@ UAB</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>December 2021 • Universitat Autonoma de Barcelona </h4>
+              <h3>
+                  Learned basic methods to develop digital systems, such as: Combinational circuits, sequential circuits, and basic digital components such as logic gates, multiplexers, decoders, flip-flops, memory blocks, etc.
+
+                  I learned digital circuit synthesis, that is the translation of an initial specification to a digital circuit consisting of components: How to translate a truth table to a Boolean expression,
+
+how to transform a Boolean expression into an optimized Boolean expression,
+
+how to translate a Boolean expression to a logic circuit made up of logic components. 
+
+In the case of sequential circuits: The definition of the circuit with a transition-states graph, the encoding of their internal states, the decomposition into a combinational circuit that computes the next state and the outputs, and into a set of memory elements.
+              </h3>
+              <div class="image-holder">
+                <a href="https://coursera.org/share/3f6622c1138725a4f8c580ab777caf61">
+                  <img
+                    src="/images/Digital-Systems-Certificate.png"
                     alt=""
                     style={{ width: "100%", borderRadius: "05%" }}
                   />
