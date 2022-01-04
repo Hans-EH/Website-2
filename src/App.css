@@ -235,13 +235,13 @@ a{
   text-align: center;
   padding-left: 0%;
   font-size: 100%;
-  transition: all 0.5s;
+  transition: all 0.2s;
   cursor: pointer;
   border-top: 0.1em dashed var(--highlightBackground);
   border-radius: 1em 0px 0px 0px;
 }
 button:focus{
-  border: solid 0.2em;
+  border: solid 0.1em;
   border-color: var(--highlightText);
   color: var(--highlightText);
   transition: 0s;

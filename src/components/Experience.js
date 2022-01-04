@@ -3,6 +3,7 @@ import "../App.css";
 
 const Experience = () => {
   const exp = [
+    "IBM",
     "Januar",
     "Østre Landsret",
     "Aalborg University",
@@ -10,7 +11,7 @@ const Experience = () => {
     "Bauhaus",
     "Bilka",
   ];
-  const [myExp, setmyExp] = useState("Januar");
+  const [myExp, setmyExp] = useState("IBM");
   return (
     <>
       <h1>
@@ -53,6 +54,23 @@ const Experience = () => {
           </div>
         </div>
         <div class="column5">
+        {myExp === "IBM" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Software Engineer <a href="https://www.IBM.com/"><span>@ {myExp}</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>February 2022 - Present</h4>
+              <h3>
+                Technical student assistent at the firm IBM. Handled rapid prototyping and pinpointed customer requirements. Developed software as per the defined requirements in larger consulting teams at IBM.
+              </h3>
+            </div>
+          )}
           {myExp === "Januar" && (
             <div>
               <h2
@@ -64,7 +82,7 @@ const Experience = () => {
               >
                 Cyber Security <a href="https://www.januar.com/"><span>@ {myExp}</span></a>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>August 2021 - Present </h4>
+              <h4 style={{ marginTop: "0%" }}>August 2021 - February 2022 </h4>
               <h3>
                 As a cyber security analyst at the cryptocurrency startup Januar
                 I was responsible for making sure the tech team’s code was
@@ -141,7 +159,7 @@ const Experience = () => {
               >
                 Service Attendant <a href="https://www.q8.dk/"><span>@ {myExp}</span></a>
               </h2>
-              <h4 style={{ marginTop: "0%" }}>2019 - 2020 </h4>
+              <h4 style={{ marginTop: "0%" }}>2018 - 2020 </h4>
               <h3>
                 At Q8 I was responsible for the entire shop, as there was only
                 ever one at work. This meant that all cleaning, sorting, making
