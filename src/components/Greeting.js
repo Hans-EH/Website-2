@@ -14,7 +14,7 @@ const Greeting = (props) => {
             <text style={{paddingLeft: "1%", fontSize: '1.5em',  fontFamily: '"Copperplate", fantasy', marginTop: '0em',marginBottom: '0em', paddingTop: "0em", paddingBottom: "0em",color:'var(--importantText)'}}>Stud. Software Engineer</text>
             </div>
             <div class="fade-in3">
-            <h2 style={{paddingLeft: '1%'}}>I'm a data enthusiast; cryptology lover; aspiring machine learning engineer. Currently working as an <a href="#experience"><span> student software engineer </span></a> at IBM</h2>
+            <h2 style={{paddingLeft: '1%'}}>I'm a data enthusiast; cryptology lover; machine learning nerd. Currently working as an <a href="#experience"><span> student software engineer </span></a> at IBM</h2>
             </div>
         </body>
     )
