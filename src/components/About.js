@@ -14,8 +14,8 @@ const About = () => {
             {" "}
             An ambitious Danish person born in 1999 currently residing in the
             capital region of Denmark. My passion is anything data related:
-            Visualizing, extrapolating, and securing the data. Therefore, it is
-            fitting that I’m currently doing a BSc in Software engineering. My
+            Visualizing, extrapolating, and securing the data. 
+            I’m currently doing a BSc in Software engineering. My
             primary technological competencies lie in the following areas: OOP
             (Java, C#, and Python), full stack development (MERN stack, SQL),
             digital electronics (C) and general data science. All of which I
