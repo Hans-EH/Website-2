@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Certifications = () => {
-  const exp = ["Digital Systems","Cryptography","Blockchain"];
+  const exp = ["Digital Systems","Cryptography","Blockchain", "Game Theory"];
   const [myCert, setMyCert] = useState("Cryptography");
 
   return (
@@ -64,6 +64,32 @@ const Certifications = () => {
                 <a href="https://coursera.org/share/2eb5c4dcbaa5755bae2cc7d870391572">
                   <img
                     src="/images/Stanford-Cryptography1-Certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+                </a>
+              </div>
+            </div>
+          )}
+          {myCert === "Game Theory" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                {myCert} Course <a href="https://www.stanford.edu/"><span>@ Stanford Online</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>February 2022 • Grade: 90% </h4>
+              <h3>
+              Learned about different types of games, such as games of pure cooperation and pure competition. Learned how games are expressed in normal and extensive form, including games of perfect and imperfect information. Learned different kinds of strategies, such as randomized strategies, maximin and minimax strategies, strictly/weakly dominant, strictly/weakly dominated strategies,  pure strategies and mixed strategies. Learned about Nash equilibrium, pareto optimality and best response. Learned about utility, stochastic games, Bayesian games, the Shapley value and the core. All of this was learned mathematically.
+              </h3>
+              <div class="image-holder">
+                <a href="https://coursera.org/share/fdbb0d0038f8e284a390f03a4c87b145">
+                  <img
+                    src="/images/Stanford-Gametheory-Certificate.png"
                     alt=""
                     style={{ width: "100%", borderRadius: "05%" }}
                   />
