@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Certifications = () => {
-  const exp = ["Digital Systems","Cryptography","Blockchain", "Game Theory"];
+  const exp = ["Game Theory","Digital Systems","Cryptography","Blockchain"];
   const [myCert, setMyCert] = useState("Cryptography");
 
   return (
