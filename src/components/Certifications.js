@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../App.css";
 
 const Certifications = () => {
-  const exp = ["Game Theory","Digital Systems","Cryptography","Blockchain"];
+  const exp = ["Inferential Statistics","Game Theory","Digital Systems","Cryptography","Blockchain"];
   const [myCert, setMyCert] = useState("Cryptography");
 
   return (
@@ -64,6 +64,33 @@ const Certifications = () => {
                 <a href="https://coursera.org/share/2eb5c4dcbaa5755bae2cc7d870391572">
                   <img
                     src="/images/Stanford-Cryptography1-Certificate.png"
+                    alt=""
+                    style={{ width: "100%", borderRadius: "05%" }}
+                  />
+                </a>
+              </div>
+            </div>
+          )}
+          {myCert === "Inferential Statistics" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                {myCert} Course <a href="https://duke.edu/"><span>@ Duke University</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>February 2022• Grade: 88% </h4>
+              <h3>
+              Learned about general methods of inferential statistics. How to sample data, what techniques to use and how to interpret the data. Theories and methods such as the central limit theorem, variance, confidence intervals, significance, and different types of errors. A big focus was put on hypothesis testing, using techniques such as T-distribution, normal distribution, ANOVA, Bootstrap and Chi-square testing.
+
+</h3>
+              <div class="image-holder">
+                <a href="https://coursera.org/share/179c8b8da8b87483b8ea2a58ecf1f97f">
+                  <img
+                    src="/images/Duke-Statistics-Certificate.png"
                     alt=""
                     style={{ width: "100%", borderRadius: "05%" }}
                   />

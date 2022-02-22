@@ -67,7 +67,7 @@ const Experience = () => {
               </h2>
               <h4 style={{ marginTop: "0%" }}>February 2022 - Present</h4>
               <h3>
-                Technical student assistent at the firm IBM. Handled rapid prototyping and pinpointed customer requirements. Developed software as per the defined requirements in larger consulting teams at IBM.
+                Technical student assistant at the firm IBM. Handled rapid prototyping and pinpointed customer requirements. Developed experimental and proof of concept systems leveraging 'AI', machine learning and hybrid cloud architecture.
               </h3>
             </div>
           )}
