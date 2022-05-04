@@ -101,14 +101,14 @@ const Projects = () => {
                 Reducing Carbon Footprint of Electricity
               </h2>
               <h4 style={{ marginTop: "0%" }}>
-                2021 • JavaScript, MongoDB, Node.js, REST API
+                2021 • JavaScript, MongoDB, Node.js
               </h4>
               <h3>
                 We analysed a problem and created requirements through a
                 detailed 80-page rapport. From this we deduced that we could cut
                 around 4% of the global carbon footprint if people used
                 electricity when it was more sustainable. From this we created a
-                dynamic website that through a REST API got current energy data
+                dynamic website that through a API got current energy data
                 live and displayed it using graphs. Using a SARIMA model we tried
                 to forecast when throughout the day was the best time to use
                 electricity. Using the model’s information, we made a custom
@@ -141,7 +141,7 @@ const Projects = () => {
                  Digital Repair Tool • Collaboration <a href="https://www.bluecity.dk/"><span>@ Blue City</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>
-                2021 • React.js, MongoDB, Java, SpringBoot
+                2021 • React.js, MongoDB, Java, SpringBoot, REST API
               </h4>
               <h3>
               In this project we collaborate with the secondhand consumer electronics company Blue City, a company that has a deprecated system

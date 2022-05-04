@@ -7,9 +7,6 @@ const Experience = () => {
     "Januar",
     "Østre Landsret",
     "Aalborg University",
-    "Q8",
-    "Bauhaus",
-    "Bilka",
   ];
   const [myExp, setmyExp] = useState("IBM");
   return (

@@ -14,12 +14,12 @@ const About = () => {
             {" "}
             An ambitious Danish person born in 1999 currently residing in the
             capital region of Denmark. My passion is anything data related:
-            Visualizing, extrapolating, and securing the data. 
+            Visualizing, extrapolating, and securing data. 
             I’m currently doing a BSc in Software engineering. My
-            primary technological competencies lie in the following areas: OOP
+            primary technological competencies lie in the following areas: Software architecture, cyber security, software development using principles of OOP
             (Java, C#, and Python), full stack development (MERN stack, SQL),
             digital electronics (C) and general data science. All of which I
-            have applied in large solo- or group projects consisting of 6-7
+            have applied either through work or in large solo- or group projects consisting of 6-7
             people.{" "}
           </h3>
         </div>
