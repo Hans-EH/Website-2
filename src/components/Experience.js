@@ -4,6 +4,7 @@ import "../App.css";
 const Experience = () => {
   const exp = [
     "IBM",
+    "Novo Nordisk",
     "Januar",
     "Østre Landsret",
     "Aalborg University",
@@ -65,6 +66,24 @@ const Experience = () => {
               <h4 style={{ marginTop: "0%" }}>February 2022 - Present</h4>
               <h3>
                 Technical student assistant at the firm IBM. Handled rapid prototyping and pinpointed customer requirements. Developed experimental and proof of concept systems leveraging 'AI', machine learning and hybrid cloud architecture.
+                Co-created with DBU a cloud based software system leveraging predictive machine learning to help find patterns in games in order to help guide the teams training habits and game strategies. The national team has increased its FIFA ranking from 16 to 9 since this project started.
+              </h3>
+            </div>
+          )}
+          {myExp === "Novo Nordisk" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Data Scientist <a href="https://www.novonordisk.com/"><span>@ {myExp}</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>Juni 2022 - Present</h4>
+              <h3>
+                Ad hoc data science to help visualize and extrapolate data to enhance the pharmaceutical production. 
               </h3>
             </div>
           )}
