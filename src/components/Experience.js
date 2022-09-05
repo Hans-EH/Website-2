@@ -67,6 +67,7 @@ const Experience = () => {
               <h3>
                 Technical student assistant at the firm IBM. Handled rapid prototyping and pinpointed customer requirements. Developed experimental and proof of concept systems leveraging 'AI', machine learning and hybrid cloud architecture.
                 Co-created with DBU a cloud based software system leveraging predictive machine learning to help find patterns in games in order to help guide the teams training habits and game strategies. The national team has increased its FIFA ranking from 16 to 9 since this project started.
+                Apart of the quantum team, helping organize and make quantum computing explainable. 
               </h3>
             </div>
           )}

@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 const Projects = () => {
   const exp = [
+    "Board Game Language",
     "PrioTool",
     "Website 2.0",
     "Sustanify",
@@ -53,6 +54,31 @@ const Projects = () => {
               )
             })}
           </div>
+        </div>
+        <div class="column5">
+          {myPROJECT === "Board Game Language" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Board Game Language and Compiler
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>2022 • ANTLR, Assembly, C, Java</h4>
+              <h3>
+                Created a programming language that focuses on the creation of digital board games. The scanner and parser was created using ANTLR. Using the abstract syntax tree generated from our grammar we created a symbol table and a type checker by utilizing the visitor pattern. In the end we compiled our program to the intermediate language C, and from there compiled that to the GNU assembler. Resulting in our language for the most part being able to be compiled to machine code and completely to C.
+              </h3>
+              <a
+                href="https://github.com/Hans-EH/BoardGameLanguageCompiler"
+                class="btnDown"
+              >
+                Github
+              </a>
+            </div>
+          )}
         </div>
         <div class="column5">
           {myPROJECT === "Compliment Clock" && (
