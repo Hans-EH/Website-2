@@ -29,7 +29,7 @@ const About = () => {
             <img
               src="/images/me.jpg"
               alt=""
-              style={{ width: "100%", borderRadius: "20%" }}
+              style={{ width: "100%", borderRadius: "0%" }}
             />
           </div>
         </div>

@@ -65,7 +65,7 @@ const Certifications = () => {
                   <img
                     src="/images/Stanford-Cryptography1-Certificate.png"
                     alt=""
-                    style={{ width: "100%", borderRadius: "05%" }}
+                    style={{ width: "100%", borderRadius: "0%" }}
                   />
                 </a>
               </div>
@@ -92,7 +92,7 @@ const Certifications = () => {
                   <img
                     src="/images/Duke-Statistics-Certificate.png"
                     alt=""
-                    style={{ width: "100%", borderRadius: "05%" }}
+                    style={{ width: "100%", borderRadius: "00%" }}
                   />
                 </a>
               </div>
@@ -118,7 +118,7 @@ const Certifications = () => {
                   <img
                     src="/images/Stanford-Gametheory-Certificate.png"
                     alt=""
-                    style={{ width: "100%", borderRadius: "05%" }}
+                    style={{ width: "100%", borderRadius: "0%" }}
                   />
                 </a>
               </div>
@@ -153,7 +153,7 @@ Under the course, the usage of VHDL as a synthesis tool was continuously applied
                   <img
                     src="/images/Digital-Systems-Certificate.png"
                     alt=""
-                    style={{ width: "100%", borderRadius: "05%" }}
+                    style={{ width: "100%", borderRadius: "0%" }}
                   />
                 </a>
               </div>
@@ -184,7 +184,7 @@ Under the course, the usage of VHDL as a synthesis tool was continuously applied
                   <img
                     src="/images/Chainalysis-Certificate.png"
                     alt=""
-                    style={{ width: "100%", borderRadius: "05%" }}
+                    style={{ width: "100%", borderRadius: "0%" }}
                   />
                 </a>
               </div>
