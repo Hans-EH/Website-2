@@ -80,11 +80,11 @@ const Experience = () => {
                   color: "var(--titleText)",
                 }}
               >
-                Data Scientist <a href="https://www.novonordisk.com/"><span>@ {myExp}</span></a>
+                Data Engineer <a href="https://www.novonordisk.com/"><span>@ {myExp}</span></a>
               </h2>
               <h4 style={{ marginTop: "0%" }}>Juni 2022 - Present</h4>
               <h3>
-                Ad hoc data science to help visualize and extrapolate data to enhance the pharmaceutical production. 
+                Ad hoc data engineering & science to help visualize and extrapolate data to enhance the pharmaceutical production. 
               </h3>
             </div>
           )}
