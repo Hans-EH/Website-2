@@ -4,10 +4,12 @@ import "../App.css";
 const Experience = () => {
   const exp = [
     "IBM",
+    "TypNLP",
     "Novo Nordisk",
+    "AAU CS",
     "Januar",
-    "Østre Landsret",
     "Aalborg University",
+    "Østre Landsret",
   ];
   const [myExp, setmyExp] = useState("IBM");
   return (
@@ -85,6 +87,41 @@ const Experience = () => {
               <h4 style={{ marginTop: "0%" }}>Juni 2022 - Present</h4>
               <h3>
                 Ad hoc data engineering & science to help visualize and extrapolate data to enhance the pharmaceutical production. 
+              </h3>
+            </div>
+          )}
+          {myExp === "AAU CS" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Teaching Assistant in OOP <a href="https://www.cs.aau.dk/"><span>@ {myExp}</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>September 2022 - December 2022</h4>
+              <h3>
+
+              Teaching Assistant for Object-Oriented Programming (OOP) classes taught in Java at the department of computer science at Aalborg University. A heavy focus was placed on different design patterns and their utility.
+              </h3>
+            </div>
+          )}
+          {myExp === "TypNLP" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Research Assistant <a href="https://typnlp.github.io/"><span>@ {myExp}</span></a>
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>September 2022 - Present</h4>
+              <h3>
+              Assisted in natural language processing research surrounding low-resource languages. Helped develop, fine tune and train NLP models. Did data Scraping, data cleaning and data engineering. Developed ad hoc software systems, including the TypNLP website.
               </h3>
             </div>
           )}
