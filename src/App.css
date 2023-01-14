@@ -103,11 +103,6 @@ h2{
 }
 h3{
   color: var(--text);
-  text-align:justify;
-  word-break: break-all;
-  text-justify: distribute;
-  text-align-last: left;
-
 }
 h4{
   color: var(--text);
