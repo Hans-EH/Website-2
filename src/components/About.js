@@ -5,7 +5,7 @@ const About = () => {
     <body>
       <title>Who am I?</title>
       <h1 style={{ marginBottom: "0%" }}>
-        <span>01.</span> About me
+      <a href="#about"><span>01.</span></a> About me
       </h1>
 
       <div class="row">
@@ -18,7 +18,7 @@ const About = () => {
             I’m currently doing a BSc in Software engineering. My
             primary technological competencies lie in the following areas: Software architecture, cyber security, software development using principles of OOP
             (Java, C#, and Python), full stack development (MERN stack, SQL),
-            digital electronics (C), quantum computing (Qiskit) and general data science. All of which I
+            digital electronics (C), quantum computing (Qiskit) and general data science including but not limited to deep learning, computer vision and natural language processing. All of which I
             have applied either through work or in large solo- or group projects consisting of 6-7
             people.{" "}
           </h3>

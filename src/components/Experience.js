@@ -16,7 +16,7 @@ const Experience = () => {
     <>
       <h1>
         <title>Professional experience</title>
-        <span>02.</span> Where I have worked
+        <a href="#experience"><span>02.</span></a> Where I have worked
       </h1>
       <div class="row">
         <div class="column4">

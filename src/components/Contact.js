@@ -5,7 +5,7 @@ const Contact = () => {
     <body>
       <title>Feel free to contact me</title>
       <h1>
-        <span>06.</span> Contact
+      <a href="#contact"><span>06.</span></a> Contact
       </h1>
       <h2>
         Even though I'm not actively looking for new opportunities, both my

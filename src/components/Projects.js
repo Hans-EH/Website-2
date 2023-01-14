@@ -20,7 +20,7 @@ const Projects = () => {
         Here is a collection of my highlighted projects that I have done
       </title> 
       <h1>
-        <span>05.</span> Highlighted Projects
+      <a href="#projects"><span>05.</span></a> Highlighted Projects
       </h1>
       <div class="row">
         <div class="column4" style={{height: '25em'}}>
