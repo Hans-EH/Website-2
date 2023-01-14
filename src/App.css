@@ -92,6 +92,7 @@ span{
 /*My name */
 text{
   color: var(--importantText);
+  
 }
 /* */
 h1{
@@ -102,6 +103,11 @@ h2{
 }
 h3{
   color: var(--text);
+  text-align:justify;
+  word-break: break-all;
+  text-justify: distribute;
+  text-align-last: left;
+
 }
 h4{
   color: var(--text);
