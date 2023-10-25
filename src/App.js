@@ -43,7 +43,7 @@ function App() {
 
               Enter Password
               <br />
-              <input type="password"
+              <input type="text"
                 name="Enter Password"
                 placeholder="Hint, noget du altid glemmer ;)"
                 onChange={e => setPassword(e.target.value)}
