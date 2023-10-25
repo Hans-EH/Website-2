@@ -1,4 +1,6 @@
 import './App.css';
+import React, { useState, useEffect } from 'react';
+
 import Header from './components/Header';
 import Greeting from './components/Greeting';
 import Certifications from './components/Certifications';
@@ -9,38 +11,78 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollAnimation from 'react-animate-on-scroll';
+import Natascha from './components/Natascha';
+
 
 function App() {
+  const [secretPassword] = useState("9290238a8641a0ca91bf64ce61c5eeb897190cd5428855a81bf9aa43bcc15274");
+  const [password, setPassword] = useState("placeholderpassword");
+
+  const [showNatascha, setShowNatascha] = useState(false);
+  useEffect(() => {
+    const currentHostname = window.location.hostname;
+    const isNataschaUrl = currentHostname.startsWith("nans")
+    setShowNatascha(isNataschaUrl);
+
+  }, []);
+  const crypto = require('crypto');
+  function hashString(inputString, algorithm) {
+    const hash = crypto.createHash(algorithm);
+    hash.update(inputString);
+    return hash.digest('hex');
+  }
+  const algorithm = 'sha256';
+
   return (
-    <div className="container" style={styling}>
-      <Header/>
-      <div style={{marginBottom: "10rem"}}><Greeting /></div>
+    <div>
+      {showNatascha ? <>
+        {hashString(password, algorithm) !== secretPassword ?
+          <form style = {{display:"flex",marginTop:"25vh"}}>
+            <label >
+            <h1 style={{float:"center"}}>Natascha + Hans = Nans {"<3"}</h1>
 
-      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true" offset="300">
-      <div id="about" ><About/></div>
-      </ScrollAnimation>
-      
-      <ScrollAnimation animateIn="fadeBlockIn" style={margin}  duration="2" animateOnce="true"offset="300">
-      <div id="experience"><Experience/></div>
-      </ScrollAnimation>
+              Enter Password
+              <br />
+              <input type="password"
+                name="Enter Password"
+                placeholder="Hint, noget du altid glemmer ;)"
+                onChange={e => setPassword(e.target.value)}
+              />
+            </label>
+          </form> :
+          <Natascha />}
+          </>: 
 
-      <ScrollAnimation animateIn="fadeBlockIn" style={margin}  duration="2" animateOnce="true"offset="300">
-      <div id="certifications"><Certifications/></div>
-      </ScrollAnimation>
+      <div className="container" style={styling}>
+        <Header />
+        <div style={{ marginBottom: "10rem" }}><Greeting /></div>
 
-      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
-      <div id="education"><Education/></div>
-      </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="about" ><About /></div>
+        </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
-      <div id="projects"><Projects/></div>
-      </ScrollAnimation>
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="experience"><Experience /></div>
+        </ScrollAnimation>
 
-      <ScrollAnimation animateIn="fadeBlockIn"  style={margin} duration="2" animateOnce="true"offset="300">
-      <div id="contact"><Contact/></div>
-      </ScrollAnimation>
-      
-      <Footer/>
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="certifications"><Certifications /></div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="education"><Education /></div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="projects"><Projects /></div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="contact"><Contact /></div>
+        </ScrollAnimation>
+
+        <Footer />
+      </div>}
     </div>
   );
 }

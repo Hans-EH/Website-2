@@ -4,6 +4,7 @@ import React, { useState } from "react";
 
 const Projects = () => {
   const exp = [
+    "Bachelor Thesis",
     "Board Game Language",
     "PrioTool",
     "Website 2.0",
@@ -54,6 +55,25 @@ const Projects = () => {
               )
             })}
           </div>
+        </div>
+        <div class="column5">
+          {myPROJECT === "Bachelor Thesis" && (
+            <div>
+              <h2
+                style={{
+                  marginTop: "2%",
+                  marginBottom: "0%",
+                  color: "var(--titleText)",
+                }}
+              >
+                Bachelor Thesis 
+              </h2>
+              <h4 style={{ marginTop: "0%" }}>2023 • Python, Natural Language Processing, Operations Research, Monte Carlo, Arima</h4>
+              <h3>
+              Thesis concluded in a concurrent and scalable system using microservices utilizing machine learning in areas such as time series analysis, risk management, sentiment analysis and portfolio optimization which can help democratize the process of investing in the stock market in a simple and accessible way.
+              </h3>
+            </div>
+          )}
         </div>
         <div class="column5">
           {myPROJECT === "Board Game Language" && (

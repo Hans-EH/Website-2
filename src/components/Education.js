@@ -10,6 +10,14 @@ const Education = () => {
       <div class="row">
         <div class="column2">
           <h2>
+            <strong>2023-2025</strong>
+          </h2>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+
+          <h2>
             <strong>2020-2023</strong>
           </h2>
           <br/>
@@ -18,6 +26,11 @@ const Education = () => {
           </h2>
         </div>
         <div class="column3">
+        <h2 style={{marginBottom: "0%"}}><a href="https://www.en.aau.dk/"><span>Technical University of Denmark</span></a></h2>
+          <h2 style={{marginTop: "0%", marginBottom: "0%"}}>MSc. Computer Science and Engineering</h2>
+          <h2 style={{marginTop: "0%", marginBottom: "0%"}}>Studyline: Algorithms and Artificial Intelligence</h2>
+          <h2 style={{marginTop: "0%", marginBottom: "5%"}}>Focus Area: Machine Learning</h2>
+
         <h2 style={{marginBottom: "0%"}}><a href="https://www.en.aau.dk/"><span>Aalborg University</span></a></h2>
           <h2 style={{marginTop: "0%", marginBottom: "5%"}}>BSc. Software Engineering, ECTS GPA: 4.5 </h2>
           <h2 style={{marginBottom: "0%"}}><a href="https://nextkbh.dk/gymnasier/albertslund-gymnasium"><span>Albertslund Gymnasium</span></a></h2>
