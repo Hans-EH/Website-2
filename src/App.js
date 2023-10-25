@@ -20,8 +20,8 @@ function App() {
 
   const [showNatascha, setShowNatascha] = useState(false);
   useEffect(() => {
-    const currentHostname = window.location.hostname;
-    const isNataschaUrl = currentHostname.startsWith("nans")
+    const currentUrl = window.location.href;
+    const isNataschaUrl = currentUrl.endsWith("nans")
     setShowNatascha(isNataschaUrl);
 
   }, []);
