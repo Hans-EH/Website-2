@@ -26,7 +26,7 @@ const Education = () => {
           </h2>
         </div>
         <div class="column3">
-        <h2 style={{marginBottom: "0%"}}><a href="https://www.en.aau.dk/"><span>Technical University of Denmark</span></a></h2>
+        <h2 style={{marginBottom: "0%"}}><a href="https://www.dtu.dk/"><span>Technical University of Denmark</span></a></h2>
           <h2 style={{marginTop: "0%", marginBottom: "0%"}}>MSc. Computer Science and Engineering</h2>
           <h2 style={{marginTop: "0%", marginBottom: "0%"}}>Studyline: Algorithms and Artificial Intelligence</h2>
           <h2 style={{marginTop: "0%", marginBottom: "5%"}}>Focus Area: Machine Learning</h2>
