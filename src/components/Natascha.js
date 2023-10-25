@@ -51,7 +51,7 @@ function Natascha() {
     }
 
     return (
-        <div>
+        <div style={{paddingBottom: "0px", marginBottom: "0px"}}>
             <img style={backgroundStyle} src={photo} alt="" />
             <img style={imageStyle} src={photo} alt="" />
             <h1 style={{ backgroundColor: "transparent", zIndex: "1", width: "auto", color: "white", position: "absolute", top: "90vh", left: "2vh" }}>

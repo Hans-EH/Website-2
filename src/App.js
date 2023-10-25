@@ -37,7 +37,7 @@ function App() {
   const algorithm = 'sha256';
 
   return (
-    <div>
+    <div style={{paddingBottom: "0px", marginBottom: "0px"}}>
       {showNatascha ? <>
         {hashString(password, algorithm) !== secretPassword ?
           <form style = {{display:"flex",marginTop:"25vh"}}>
