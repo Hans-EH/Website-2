@@ -21,7 +21,7 @@ function App() {
   const [showNatascha, setShowNatascha] = useState(false);
   useEffect(() => {
     const currentUrl = window.location.href;
-    const isNataschaUrl = currentUrl.endsWith("nans")
+    const isNataschaUrl = currentUrl.indexOf("nans.") !== -1
     setShowNatascha(isNataschaUrl);
 
   }, []);
