@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+
+import SideScrollingGame from './game';
 function Natascha() {
     const [count, setCount] = useState(0);
     const [newPhoto, setNewPhoto] = useState("https://onedrive.live.com/embed?resid=69516195C20B206F%2158932&authkey=%21ABanBI76WCZ07lw")
@@ -69,6 +71,7 @@ function Natascha() {
                     style={{ width: "100%", background: 'red' }}
                 />
             </div>
+            <SideScrollingGame heartColor = {"hsl(" + sliderValue + ", 100%, 50%)"}/>
         </div>
     );
 }
