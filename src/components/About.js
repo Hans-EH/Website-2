@@ -8,6 +8,8 @@ const About = () => {
       <a href="#about"><span>01.</span></a> About me
       </h1>
 
+
+
       <div class="row">
         <div class="column" style={{paddingRight: "1%"}}>
           <h3>

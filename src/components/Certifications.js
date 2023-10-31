@@ -10,7 +10,7 @@ const Certifications = () => {
       <title>Certificates</title>
       <h1>
 
-      <a href="#certifications"><span>03.</span></a> Courses and Certificates
+      <a href="#certifications"><span>06.</span></a> Courses and Certificates
       </h1>
       <div class="row">
         <div class="column4">

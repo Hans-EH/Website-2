@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Natascha from './components/Natascha';
-
+import Publications from './components/Publications';
 
 function App() {
   const [secretPassword] = useState("9290238a8641a0ca91bf64ce61c5eeb897190cd5428855a81bf9aa43bcc15274");
@@ -69,15 +69,19 @@ function App() {
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
-          <div id="certifications"><Certifications /></div>
-        </ScrollAnimation>
-
-        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
           <div id="education"><Education /></div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="publications"><Publications /></div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
           <div id="projects"><Projects /></div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
+          <div id="certifications"><Certifications /></div>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeBlockIn" style={margin} duration="2" animateOnce="true" offset="300">
